@@ -23,4 +23,4 @@ ExceptionHandling is a smart contract that demonstrates the usage of require(), 
 Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Samiuddin2000/Eth-Avax_Module1.git
