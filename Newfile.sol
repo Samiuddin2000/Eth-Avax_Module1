@@ -23,11 +23,11 @@ contract ExceptionHandling {
         _value = doubledValue;
     }
 
-    function withdraw(uint256 amount) public {
-        require(amount <= _value, "Insufficient balance");
-        _value -= amount;
+       function withdraw(uint256 amount) public {
+      
         if (_value < amount) {
             revert("Withdrawal failed");
         }
+        _value -= amount;
     }
 }
